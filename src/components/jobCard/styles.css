@@ -1,0 +1,54 @@
+.job-card {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.job-number {
+  font-size: 18px;
+  color: #9b9b9b;
+}
+
+.job-location,
+.job-date,
+.job-time {
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+.job-time {
+  font-weight: 700;
+}
+
+.section-2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.allocation-indicator {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  border-width: 1px;
+  border-color: #3d9bff;
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.allocation-indicator > div {
+  font-size: 18px;
+  font-weight: 500;
+  color: #3d9bff;
+}
